@@ -26,5 +26,5 @@ jobs:
         image: imraahatikah6827/https
         summary: true
         format: table  
-        github-token: ${{ secrets.GITHUB_TOKEN }}
+        github-token: ${{ secrets.DOCKERTALKINGPASSWORD }}
         write-comment: true
