@@ -23,7 +23,7 @@ jobs:
       uses: docker/scout-action@v1  
       with:
         command: cves  
-        image: imraahatikah6827/https
+        image: debian:bullseye
         summary: true
         format: table  
         github-token: ${{ secrets.DOCKERTALKINGPASSWORD }}
